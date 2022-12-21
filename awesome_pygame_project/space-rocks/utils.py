@@ -7,4 +7,4 @@ def load_sprite(name, with_alpha=True):
     if with_alpha:
         return loade_sprite.convert_alpha()
     else:
-        return loaded_sprite.convert(w)
+        return loaded_sprite.convert()
